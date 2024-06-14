@@ -1,0 +1,61 @@
+/* App.css */
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    gap: 20px; /* Tambahkan gap untuk memberikan jarak antar ikon */
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+.story {
+    display: flex;
+    padding: 10px 20px;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.story-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.story-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ff8501;
+    object-fit: cover;
+}
+
+.story-name {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
